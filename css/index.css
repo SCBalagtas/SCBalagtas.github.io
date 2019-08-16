@@ -1,0 +1,310 @@
+/* Reset all styles */
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/* Set global styles */
+body
+{
+	background-color: #111111;
+}
+
+/* Add smooth scrolling */
+html
+{
+	scroll-behavior: smooth;
+}
+
+/* Set the main header style */
+#mainHeader
+{
+	height: 400px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-bottom: 4.5%;
+	background-image: url('../img/mainHeader/mainHeader.jpg');
+	background-position: 50% 35%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 30px black;
+}
+
+#headerLogo
+{
+	height: 200px;
+	width: 400px;
+	transition: 0.5s;
+}
+
+#headerLogo:hover
+{
+	cursor: pointer;
+}
+
+#headerLogo img
+{
+	height: 200px;
+	width: 400px;
+}
+
+#projectsButton
+{
+	color: white;
+	background: none;
+	text-align: center;
+	width: 300px;
+	padding: 14px 40px;
+	font-family: "Roboto Mono", monospace;
+	font-size: 20px;
+	font-weight: bold;
+	border: 4px solid white;
+	transition-duration: 0.4s;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#projectsButton:hover
+{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+
+#projectsButton:focus
+{
+	outline: none;
+}
+
+/* Set the contact section style */
+#contact
+{
+	margin-top: 100px;
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 50px;
+}
+
+#contact h1
+{
+	text-align: center;
+	font-size: 72px;
+	font-weight: lighter;
+	font-family: "Roboto Mono", monospace;
+	letter-spacing: 30px;
+	color: white;
+	margin-bottom: 40px;
+	text-shadow: 0px 0px 30px darkgrey;
+}
+
+#contact h1:hover
+{
+	cursor: pointer;
+}
+
+#contact p
+{
+	text-align: center;
+	font-size: 32px;
+	font-family: "Courier New", Courier, monospace;
+	letter-spacing: 5px;
+	color: white;
+	text-shadow: 0px 0px 20px darkgrey;
+}
+
+#contactLinks
+{
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+#contactLinks img
+{
+	background-color: #ff9900;
+	border-radius: 50%;
+	transition: 0.4s;
+	box-shadow: 0px 0px 30px black;
+}
+
+#contactLinks img:hover
+{
+	background-color: white;
+	box-shadow: 0px 0px 30px darkgrey;
+}
+
+#contactLinks ul
+{
+	list-style: none;
+}
+
+#contactLinks li
+{
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/* Set the about section style */
+#about
+{
+	margin-top: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #0c0c0c;
+	box-shadow: 0px 0px 30px black;
+}
+
+#about b
+{
+	color: #ff9900;
+}
+
+#about img
+{
+	height: 500px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 50%;
+}
+
+#aboutText
+{
+	margin-top: 50px;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+
+#aboutText h2
+{
+	font-size: 32px;
+	font-weight: lighter;
+	font-family: "Roboto Mono", monospace;
+	letter-spacing: 10px;
+	margin-bottom: 50px;	
+}
+
+#aboutText p
+{
+	font-size: 24px;
+	font-family: 'Inconsolata', monospace;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	line-height: 1.4em;
+}
+
+/* Set the main footer style */
+#mainFooter
+{
+	position: relative;
+	background-color: #ff9900;
+	margin-top: 150px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	box-shadow: 0px 0px 30px black;
+}
+
+#mainFooter a
+{
+	text-decoration: none;
+}
+
+#footerButton
+{
+	color: white;
+	background-color: #ff9900;
+	text-align: center;	
+	width: 150px;
+	padding: 14px 40px;
+	font-family: "Roboto Mono", monospace;
+	font-size: 20px;
+	font-weight: bold;
+	border: 4px solid white;
+	transition-duration: 0.4s;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footerButton:hover
+{
+	background-color: white;
+	color: #ff9900;
+}
+
+#footerLogo
+{
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+}
+
+#footerLogo img
+{	
+	height: 75px;
+	width: 150px;
+	display: block;
+	margin: auto;
+}
+
+#footerLogo img:hover
+{
+	cursor: pointer;
+}
+
+#copyright
+{
+	color: white;
+	font-family: "Roboto Mono", monospace;
+	font-size: 12px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+/* Adjust the webpage if max-width is below 715px */
+@media(max-width: 715px) /* 715 is when contactLinks glitches */
+{
+	#contactLinks li
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	/* Adijust the footer */
+	#mainFooter
+	{
+		position: initial !important;
+		padding-bottom: 40px !important;
+	}
+
+	#footerLogo
+	{
+		position: initial !important;
+	 	bottom: initial !important;
+	 	left: initial !important;
+	 	display: block;
+	 	margin-left: auto;
+	 	margin-right: auto;
+	 	margin-top: 40px;
+	}
+}
